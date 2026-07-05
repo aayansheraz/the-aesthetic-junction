@@ -1,6 +1,18 @@
 # The Aesthetic Junction
 
-Marketing website for **The Aesthetic Junction**, an aesthetic/cosmetic clinic in Okara — built with React + TypeScript + Vite + Tailwind CSS v4 + Motion (Framer Motion).
+**[Live demo →](https://aayansheraz.github.io/the-aesthetic-junction/)**
+
+![The Aesthetic Junction screenshot](.github/screenshot.png)
+
+Marketing website for **The Aesthetic Junction**, an aesthetic & cosmetic clinic in Okara — editorial typography, scroll-reveal galleries and a service showcase with a "now accepting clients" call to action.
+
+Built with **React + TypeScript + Vite + Tailwind CSS v4 + Motion (Framer Motion)**.
+
+## Highlights
+
+- Editorial hero with oversized display type and layered imagery
+- Scroll-triggered reveals across services, gallery and about sections
+- Fully static build — no backend required
 
 ## Run locally
 
@@ -15,9 +27,4 @@ npm run dev      # http://localhost:3000
 npm run build
 ```
 
-Upload the contents of `dist/` to any static host (Vercel, Netlify, GitHub Pages, or shared hosting) — no backend or API key required.
-
-## Structure
-
-- `src/App.tsx` — the entire site.
-- `src/index.css` — Tailwind entry point.
+Upload the contents of `dist/` to any static host (Vercel, Netlify, GitHub Pages, or shared hosting).
