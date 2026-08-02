@@ -6,3 +6,9 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# AI Tooling & Local Config Exclusions
+.mcp.json
+.antigravity/
+.gemini/
+.claude/

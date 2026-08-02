@@ -1,30 +1,51 @@
-# The Aesthetic Junction
+# The Aesthetic Junction — Medical & Cosmetic Clinic Web App
 
-**[Live demo →](https://aayansheraz.github.io/the-aesthetic-junction/)**
+[![CI Build](https://github.com/aayansheraz/the-aesthetic-junction/actions/workflows/ci.yml/badge.svg)](https://github.com/aayansheraz/the-aesthetic-junction/actions/workflows/ci.yml)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Interactive_Site-00C853?style=flat&logo=vercel)](https://aayansheraz.github.io/the-aesthetic-junction/)
+[![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_v4-38BDF8?style=flat&logo=tailwindcss)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat&logo=framer)](https://framer.com/motion)
 
-![The Aesthetic Junction screenshot](.github/screenshot.png)
+**[🚀 View Live Clinic Application →](https://aayansheraz.github.io/the-aesthetic-junction/)**
 
-Marketing website for **The Aesthetic Junction**, an aesthetic & cosmetic clinic in Okara — editorial typography, scroll-reveal galleries and a service showcase with a "now accepting clients" call to action.
+![The Aesthetic Junction Screenshot](.github/screenshot.png)
 
-Built with **React + TypeScript + Vite + Tailwind CSS v4 + Motion (Framer Motion)**.
+A commercial marketing web application engineered for **The Aesthetic Junction**, a premier cosmetic clinic in Okara. Features smooth scroll reveals, service treatment showcases, client appointment inquiry routing, and responsive mobile-first navigation.
 
-## Highlights
+Built with **React + TypeScript + Vite + Tailwind CSS v4 + Framer Motion**.
 
-- Editorial hero with oversized display type and layered imagery
-- Scroll-triggered reveals across services, gallery and about sections
-- Fully static build — no backend required
+---
 
-## Run locally
+## 🌟 Key Features
+
+- **Clinic Treatment Showcase:** Animated service cards showcasing skincare, dermatological, and cosmetic treatments.
+- **Scroll-Triggered Motion:** 60fps micro-interactions and section transitions powered by Framer Motion.
+- **Direct Appointment Inquiry Flow:** Seamless WhatsApp and phone booking routing for patient convenience.
+- **Automated CI Pipeline:** GitHub Actions continuous integration workflow for automated build checks.
+
+---
+
+## 💻 Local Development Setup
 
 ```bash
+# Install dependencies
 npm install
-npm run dev      # http://localhost:3000
+
+# Run local development server
+npm run dev
 ```
 
-## Build for hosting
+---
+
+## 📦 Production Build
 
 ```bash
 npm run build
 ```
 
-Upload the contents of `dist/` to any static host (Vercel, Netlify, GitHub Pages, or shared hosting).
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
